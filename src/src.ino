@@ -35,7 +35,7 @@ const byte pins[] = { 12, 11, 10, 9, A0 };
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numkeys, 13, NEO_GRB + NEO_KHZ800);
 #else
 const byte pins[] = { 0, 2, 20, 19, 3 };
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numkeys, 1, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numkeys, 1, NEO_GRBW + NEO_KHZ800);
 #endif
 char initMapping[] = {"zxcvb"};
 // Cycle LED Mode
